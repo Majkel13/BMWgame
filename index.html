@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Odgadnij co to za BMW</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <header>
+            
+            Odgadnij co to za BMW
+            <img id="logo" src="logo.png" alt="logo">
+        </header>
+        <div id=container>
+        <section>
+            <div class="zdjecie">
+                <div id='zdj'>
+                <img id="obrazek" src="BMWX1.png" alt="obrazek" >    
+                </div>
+                
+            </div>
+            
+            <div class="zakryj">
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+                <div class="kafelek"></div>
+            </div>
+        </section>
+        <div id="wynik">
+            <div>
+                <p>CEL Zdobądz 50pkt</p><br>
+                Wybierz auto z listy
+                <form>
+                    <select id="auta">
+                        <option value="1" >BMW X1</option>
+                        <option value='2' >BMW X2</option>
+                        <option value='3' >BMW X3</option>
+                        <option value='4' >BMW X4</option>
+                        <option value='5' >BMW X5</option>
+                        <option value='6' >BMW X6</option>
+                    </select>
+                    <button type="button" onclick="check()">Zatwierdz</button>
+                    
+                </form>
+            </div>
+            
+            <div id="odp"></div>
+            Możliwe punkty do zdobycia w tej rundzie:
+            <div id="punkty">18</div>
+            <div id="aktualnywynik">
+  
+                Twój aktualny wynik
+                <p id="suma"></p>
+            </div>
+
+        </div>
+        
+        </div>
+        <footer>&copy Created by Majkel</footer>
+        <script src="game.js"></script>
+    </body>
+</html>

@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-09-05, 18:07:50
+    Author     : Michał
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+     max-width: 100%;  
+     widows: 100px;
+}
+section{
+    display: flex;  
+}
+#wynik{
+    
+    float: right;
+    margin-top: 30px;
+    font-size: 50%;
+    color: #212;
+    margin-right: 10px;
+}
+p{
+    color: red;
+    font-weight: bold;
+}
+
+.zdjecie{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 612px;
+    height: 400px;;
+      
+}
+.zakryj{  
+    width: 612px;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+.kafelek{
+    flex-basis: 16.6%;
+    flex-grow: 1;
+    height: 33.33%;
+    border: 1px solid blue;
+    
+    
+}
+.ukryj{
+    flex-basis: 16.6%;
+    flex-grow: 1;
+    height: 33.33%;
+    border: 1px solid blue;
+    background-color: black;
+    
+}
+#odp{
+    padding: 20px;
+    font-size: 130%;
+    font-style: italic; 
+    
+}
+#aktualnywynik{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#container{
+    font-size: 300%;  
+}
+
+header{
+    background: rgba(22, 24, 26, 0.9);
+    color: rgba(103, 95, 249, 0.8);
+    margin: 0 auto;
+    font-size: 300%;
+    padding-bottom:  20px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(45deg,white,#99ccff);
+    background-repeat: repeat;
+    background-size: 20px 20px; 
+}
+
+footer{
+    background: rgba(22, 24, 26, 0.9);
+    color: rgba(103, 95, 249, 0.8);
+    font-size: 3vh;
+    padding-bottom:  10px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;    
+}
+
+#logo{
+    
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1150px) {
+    
+    .zakryj{  
+    width: 44vw;
+    height: 29vw;}
+    
+    .zdjecie{
+    height: 29vw;
+    width: 44vw;  
+}
+#wynik{
+    font-size: 40%;
+}
+}
+@media screen and (max-width: 640px) {
+    
+        .zakryj{  
+    width: 80%;
+    height: 52vw;
+    margin-left: 10%;}
+    
+    .zdjecie{
+    height: 54vw;
+    width: 80%;
+    margin-left:10%; 
+      
+}
+    #wynik{
+       
+     margin-top: 52vw;
+     float: left;
+     width: 100%;
+     text-align: center;
+     font-size: 30%;
+    }
+    header{
+        font-size: 150%;
+    }
+    #logo{
+        width: 5%;
+        height: 5%;
+    }
+}
+
