@@ -45,7 +45,7 @@ const check = function () {
         punkty = cards.length;
         var o = document.getElementById("odp");
         o.style.color = "green";
-        o.innerHTML = "dobra odpwiedż :) ";
+        o.innerHTML = "dobra odpwiedź :) ";
         ile_rund=ile_rund+1;
 
         if (suma >= 50) {
@@ -66,7 +66,7 @@ const check = function () {
         punkty = cards.length;
         var q = document.getElementById("odp");
         q.style.color = "red";
-        q.innerHTML = "zła odpowiedz :( ";
+        q.innerHTML = "zła odpowiedź :( ";
         ile_rund=ile_rund+1;
         
         init();
