@@ -12,11 +12,16 @@ and open the template in the editor.
     padding: 0;
     box-sizing: border-box;
 }
-
+.left{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
 img{
      max-width: 100%;  
-     widows: 100px;
+     
 }
+
 section{
     display: flex;  
 }
@@ -25,7 +30,7 @@ section{
     float: right;
     margin-top: 30px;
     font-size: 50%;
-    color: #212;
+    color: #efefef;;
     margin-right: 10px;
 }
 p{
@@ -83,32 +88,34 @@ p{
 }
 
 header{
-    background: rgba(22, 24, 26, 0.9);
-    color: rgba(103, 95, 249, 0.8);
+    background: black;
+    color: #efefef;
     margin: 0 auto;
     font-size: 300%;
     padding-bottom:  20px;
     text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+      font-family: "Courier";
+    padding-top: 10px;
+
 }
 
 body{
-    background-image: linear-gradient(45deg,white,#99ccff);
-    background-repeat: repeat;
-    background-size: 20px 20px; 
+    background-color: #2F3336;
+    color: #efefef;
+  
 }
 
 footer{
-    background: rgba(22, 24, 26, 0.9);
-    color: rgba(103, 95, 249, 0.8);
+    background: black;
+    color: #efefef;
     font-size: 3vh;
     padding-bottom:  10px;
     text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
     position: fixed;
     right: 0;
     bottom: 0;
     left: 0;    
+      font-family: "Courier";
 }
 
 #logo{
